@@ -11,7 +11,7 @@ function App() {
         <p>{qrValue}</p>
         <input
         autoFocus
-        onChange={(e) => setQrValue(e.value.target)}
+        onChange={(e) => setQrValue(e.target.value)}
         value={qrValue}
         />
       </div>
