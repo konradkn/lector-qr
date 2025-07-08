@@ -8,7 +8,7 @@ function App() {
     <>
       <div>
         <h1>Lector QR</h1>
-        <p>{qrValue}</p>
+        <p style={{ fontSize: "4rem"}}>El valor escaneado es: {qrValue}</p>
         <input
         autoFocus
         onChange={(e) => setQrValue(e.target.value)}
